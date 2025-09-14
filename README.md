@@ -56,9 +56,13 @@ You can directly use the model here:
 If you are running this model on Google Colab, you’ll need to:
 
 Go to the left sidebar and click the 🔑 (Secrets) tab.
+
 Add a new secret with the name:`HF_TOKEN` and set the value to your Hugging Face token from [here](https://huggingface.co/settings/tokens).
+
 Enable Notebook access for your token.
+
 Restart the Colab session.
+
 Then log in inside the notebook:
 
 ---
