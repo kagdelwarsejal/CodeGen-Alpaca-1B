@@ -3,7 +3,8 @@
 This repository documents the development of CodeGen-Alpaca-1B, a fine-tuned LLM based on StarCoderBase-1B.
 It was fine-tuned using the CodeAlpaca (2k subset) dataset with QLoRA on Google Colab, making it lightweight and efficient for code generation tasks.
 
-🔗 Demo: [Hugging Face](https://huggingface.co/key-life/codegen-alpaca-1b)
+Demo: [Hugging Face](https://huggingface.co/key-life/codegen-alpaca-1b)
+
 ---
 
 # Motivation
