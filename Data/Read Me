@@ -1,1 +1,22 @@
+# Data Folder
+
+This folder contains the datasets used for fine-tuning **CodeGen-Alpaca-1B**.  
+
+## Datasets
+
+### 1. CodeAlpaca 2k Subset
+- **File:** `codealpaca_2k.json` (or whichever your file is named)  
+- **Size:** 2,000 instruction → code pairs  
+- **Purpose:** Used for **quick/faster fine-tuning experiments** on lightweight GPUs (e.g., Colab T4)  
+- **Notes:** Ideal for testing and small-scale experiments.  
+
+### 2. CodeAlpaca 20k Full Dataset
+- **File:** `codealpaca_20k.json`  
+- **Size:** 20,000 instruction → code pairs  
+- **Purpose:** Used for **full-scale fine-tuning** for better model performance  
+- **Notes:** Requires more GPU memory and longer training time  
+
+## License
+- Both datasets are **MIT licensed**.  
+- You are free to use and modify them for research or fine-tuning purposes.
 
